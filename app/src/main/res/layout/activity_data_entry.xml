@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataEntryActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DEgroup_id"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp">
+            <RadioButton
+                android:id="@+id/DE_sub_radio_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SectorSectedClicked"
+                android:text="Subject"/>
+            <RadioButton
+                android:id="@+id/DE_model_radio_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SectorSectedClicked"
+                android:text="Model Test"/>
+            <RadioButton
+                android:id="@+id/DE_ques_radio_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SectorSectedClicked"
+                android:text="Ques"/>
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:id="@+id/DEmodel_test_no_id"
+            android:inputType="number"
+            android:hint="Enter Model Test No"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/DEmodel_test_no_id"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:id="@+id/DEsubject_code_id"
+            android:inputType="number"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Subject Code"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:id="@+id/DEques_id"
+            android:layout_below="@id/DEsubject_code_id"
+            android:inputType="text"
+            android:hint="Enter Ques"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_below="@id/DEques_id"
+            android:id="@+id/DEop1_id"
+            android:inputType="text"
+            android:hint="Enter Option 1"   />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_below="@id/DEop1_id"
+            android:id="@+id/DEop2_id"
+            android:inputType="text"
+            android:hint="Enter Option 2"    />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_below="@id/DEop2_id"
+            android:id="@+id/DEop3_id"
+            android:inputType="text"
+            android:hint="Enter Option 3"    />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_below="@id/DEop3_id"
+            android:id="@+id/DEop4_id"
+            android:inputType="text"
+            android:hint="Enter Option 4"  />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_below="@id/DEop4_id"
+            android:id="@+id/DEright_ans_id"
+            android:inputType="text"
+            android:hint="Enter Right Ans"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/DEright_ans_id"
+            android:onClick="onDataEnteryClicked"/>
+    </RelativeLayout>
+
+</ScrollView>

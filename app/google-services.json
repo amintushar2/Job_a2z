@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1056076563772",
+    "firebase_url": "https://jobaz-f0b1d.firebaseio.com",
+    "project_id": "jobaz-f0b1d",
+    "storage_bucket": "jobaz-f0b1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056076563772:android:9fa66abb6132b079",
+        "android_client_info": {
+          "package_name": "com.soft_sketch.job_a2z"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056076563772-ce0npsdgfkomo5afsakj3vkhcekehis1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soft_sketch.job_a2z",
+            "certificate_hash": "cadd71d1b602cfb8aa09ba8bd31a037b2779b2d4"
+          }
+        },
+        {
+          "client_id": "1056076563772-fiou6jchp14nth8vs4umjm4ia3h7kp71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLenY25s0vZQgMAwEevbKsKnFv-J7v99o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056076563772-fiou6jchp14nth8vs4umjm4ia3h7kp71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
